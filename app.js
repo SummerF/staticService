@@ -1,8 +1,8 @@
 const http = require('http');
 const chalk = require('chalk');
 const path = require('path');
-const config = require('./config/default.config');
-const route = require('./helper/route');
+const config = require('./src/config/default.config');
+const route = require('./src/helper/route');
 
 class Server{
     constructor(conf){
